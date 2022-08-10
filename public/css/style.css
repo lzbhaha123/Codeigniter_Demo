@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+header{
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 20px 0px;
+    background-color:snow;
+    border-bottom: 1px solid #9d9191;
+    box-shadow: #909090 2px 3px 5px;
+}
+.m10{
+    margin: 10px 0px;
+}
+.block{
+    width: 100%;
+}
+.button{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 0px;
+}
+
+.page_title{
+    text-align: center;
+}
+.content{
+    max-width: 600px;
+    margin: -1px auto 0px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-left: 1px solid #9b9191;
+    border-right: 1px solid #9b9191;
+    min-height: calc(120vh - 250px);
+}
+
+.item{
+    margin: 10px 0px;
+    display: flex;
+}
+
+.item .button{
+    border-radius: 0px;
+    padding: 5px 15px;
+}
+
+.item div:nth-child(1){
+    flex-grow: 2;
+    text-align: center;
+    line-height: 42px;
+    font-size: 2rem;
+    padding-top: 3px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 0 ;
+    background-color: snow;
+    border-top: 1px solid #9d9191;
+    box-sizing: border-box;
+}
+
+.footer>div{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.fd{
+    height: 62px;
+}
+
+.form_div{
+
+}
+
+.form_div p{
+    font-size: 1.5rem;
+}
+
+.form_div input, .form_div textarea{
+    margin: 20px auto;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 5px;
+    box-sizing: border-box;
+   
+}
+
+.form_div textarea{
+    resize:none;
+    height: 200px;
+}
+
