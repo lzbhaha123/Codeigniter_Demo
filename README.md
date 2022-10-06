@@ -7,3 +7,5 @@
 3> composer install
 
 4> php spark serve
+
+5> try it
